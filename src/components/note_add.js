@@ -25,7 +25,7 @@ class NoteAdd extends Component {
       <label>Note Text:
         <input ref="note" type="text" name="repo" />
       </label>
-      <input type="submit" value="Submit" />
+      <input type="submit" value="Submit" className="button" />
      </form>
    );
   }

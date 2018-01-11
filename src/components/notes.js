@@ -8,7 +8,7 @@ import NoteAdd from './note_add';
    return (
      <div>
       <Callout>
-        <p>NOTES</p>
+        <h4>Notes</h4>
         <ul>
           { props.notes.map((note, index) => {
             return (

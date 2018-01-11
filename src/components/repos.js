@@ -7,7 +7,7 @@ const Repos = (props) => {
    return (
      <div className='repos'>
       <Callout>
-        <p>REPOS</p>
+        <h4>Repos</h4>
         <ul>
           { props.repos.map((repo, index) => {
             return (

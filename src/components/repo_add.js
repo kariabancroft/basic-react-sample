@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../App.scss';
-// import { Button } from 'react-foundation';
+import { Colors } from 'react-foundation';
 
 class RepoAdd extends Component {
   constructor() {
@@ -25,7 +25,7 @@ class RepoAdd extends Component {
       <label>Repo Name:
         <input ref="name" type="text" name="repo" />
       </label>
-      <input type="submit" value="Submit" />
+      <input type="submit" value="Submit" className="button"/>
      </form>
    );
   }
